@@ -23,17 +23,17 @@ sleep.MSRandom(max)
 Exponention sleep 2->4->8... ms
 
 ```
-   	power := 0
-   	for i := 0; i < 3; i++ {
- 		power = MSExponent(power)
-	}
+power := 0
+for i := 0; i < 3; i++ {
+	power = MSExponent(power)
+}
 ```
 
 Exponention sleep 2->4->8... ms with jitter(0-1ms)
 
 ```
-   	power = 0
-	for i := 0; i < 3; i++ {
-  		power = MSExponentJitter(power)
-	}
+power := 0
+for i := 0; i < 3; i++ {
+ 	power = MSExponentJitter(power)
+}
 ```
