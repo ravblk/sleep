@@ -1,4 +1,4 @@
-module ravblk/sleep
+module github.com/ravblk/sleep
 
 go 1.14
 
